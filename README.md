@@ -1,7 +1,7 @@
 # 🌐 Personal Portfolio Website
 
 A modern and responsive personal portfolio website built to showcase my background, skills, goals, and projects as a software developer and tech enthusiast.
-
+![Portfolio Preview](assets/image/webpage.png)
 ## 📸 Preview
 
 This portfolio includes:
