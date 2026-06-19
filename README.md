@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+# > Personal Portfolio Website
 
 A modern and responsive personal portfolio website built to showcase my background, skills, goals, and projects as a software developer and tech enthusiast.
 ![Portfolio Preview](assets/image/webpage.png)
@@ -16,7 +16,7 @@ This portfolio includes:
 
 ---
 
-# 🚀 Features
+# > Features
 
 - Smooth and clean modern UI
 - Responsive design for desktop and mobile
@@ -28,7 +28,7 @@ This portfolio includes:
 
 ---
 
-# 🛠️ Technologies Used
+# > Technologies Used
 
 - HTML5
 - CSS3
