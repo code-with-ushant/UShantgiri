@@ -6,143 +6,155 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-  <title>Ushant Giri — Software Developer & Tech Enthusiast</title>
+  <title>Ushant Giri — Software Developer, Founder &amp; Problem Solver</title>
 
-  <!-- Modern SVG Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230f1013'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='-apple-system,system-ui,sans-serif' font-weight='700' font-size='48' fill='%232997ff'>UG</text></svg>">
+  <!-- Modern SVG Monogram Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='26' fill='%230b0d12'/><text x='50%' y='56%' dominant-baseline='middle' text-anchor='middle' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='44' fill='%232997ff'>UG</text></svg>">
 
   <!-- SEO & Social Meta -->
-  <meta name="description" content="Personal portfolio of Ushant Giri, Software Developer from Sunsari, Nepal. BIT graduate from Central Campus of Technology, Dharan. Specializing in Python, C/C++, JavaScript, and systems development.">
-  <meta name="keywords" content="Ushant Giri, Software Developer, Nepal, BIT, Central Campus of Technology, Dharan, Web Development, Python, C++, DSA, Portfolio">
+  <meta name="description" content="Portfolio of Ushant Giri, Software Engineer from Sunsari, Nepal. BIT graduate from Central Campus of Technology, Dharan. Specializing in Python, C/C++, low-latency video streaming, and real-time transit systems.">
+  <meta name="keywords" content="Ushant Giri, Software Engineer, Wireless Webcam Pro, CCT Bus Tracker, Python, C++, Low Latency, Systems Programming, Nepal, BIT Dharan">
   <meta name="author" content="Ushant Giri">
 
-  <!-- Google Fonts: Inter as companion to Apple SF Pro system stack -->
+  <!-- Google Fonts: Inter as companion to Apple SF Pro system typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <!-- Custom Apple-Inspired Stylesheet -->
+  <!-- Apple Studio & Keynote Stylesheet -->
   <link rel="stylesheet" href="assets/css/sty.css">
 </head>
 
 <body>
 
-  <div class="app-container">
+  <!-- Ambient Glow Behind Studio Canvas -->
+  <div class="ambient-glow-top" aria-hidden="true"></div>
+
+  <div class="app-layout">
 
     <!-- ====================================================================
-         SIDEBAR: Profile Card, Contact Details & Theme Switcher
+         SIDEBAR: Profile Card, Contact Details, Social Dock & Appearance
          ==================================================================== -->
-    <aside class="sidebar" data-sidebar>
+    <aside class="studio-sidebar" data-sidebar>
 
-      <div class="sidebar-header">
-        <div class="avatar-wrapper">
-          <img src="assets/image/mypp.png" alt="Ushant Giri" class="avatar-img" width="132" height="132" loading="eager">
+      <div class="sidebar-identity">
+        <div class="avatar-container">
+          <img src="assets/image/mypp.png" alt="Ushant Giri" class="avatar-photo" width="112" height="112" loading="eager">
+          <span class="avatar-status-badge" title="Active & Available"></span>
         </div>
 
-        <div class="profile-info">
-          <h1 class="profile-name">Ushant Giri</h1>
-          <p class="profile-role">Software Developer</p>
-          <div class="status-pill">
-            <span class="status-dot"></span>
-            <span>Available for projects</span>
+        <div class="identity-text">
+          <h1 class="identity-name">Ushant Giri</h1>
+          <p class="identity-role">Software Developer &amp; Founder</p>
+          <div class="availability-pill">
+            <span class="live-pulse"></span>
+            <span>Available for Roles</span>
           </div>
         </div>
 
-        <button class="sidebar-toggle-btn" data-sidebar-btn aria-expanded="false" aria-label="Toggle contact details">
-          <span>Contacts</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <button class="mobile-drawer-toggle" data-sidebar-btn aria-expanded="false" aria-label="Toggle contact details">
+          <span>Profile Info</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
       </div>
 
-      <div class="sidebar-body">
-        <ul class="contact-list">
+      <div class="sidebar-expandable">
 
-          <!-- Email -->
-          <li class="contact-item">
-            <div class="contact-icon-box" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <div class="divider-hairline"></div>
+
+        <!-- Clean Contact Channels (No Clunky Nested Boxes) -->
+        <ul class="contact-rows-list">
+
+          <li class="contact-row" data-copy-target="ushantgiri3@gmail.com" title="Click to copy email">
+            <div class="row-icon">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <rect width="20" height="16" x="2" y="4" rx="2"></rect>
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
               </svg>
             </div>
-            <div class="contact-info">
-              <span class="contact-label">Email</span>
-              <a href="mailto:ushantgiri3@gmail.com" class="contact-value" title="Send email to ushantgiri3@gmail.com">ushantgiri3@gmail.com</a>
+            <div class="row-meta">
+              <span class="row-label">Email</span>
+              <a href="mailto:ushantgiri3@gmail.com" class="row-value">ushantgiri3@gmail.com</a>
             </div>
-            <button class="copy-pill-btn" data-copy-target="ushantgiri3@gmail.com" title="Copy email address" aria-label="Copy email address">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
-                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
-              </svg>
-            </button>
+            <span class="row-action-pill">Copy</span>
           </li>
 
-          <!-- Phone -->
-          <li class="contact-item">
-            <div class="contact-icon-box" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <li class="contact-row" data-copy-target="+9779805315275" title="Click to copy phone">
+            <div class="row-icon">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
                 <path d="M12 18h.01"></path>
               </svg>
             </div>
-            <div class="contact-info">
-              <span class="contact-label">Phone</span>
-              <a href="tel:+9779805315275" class="contact-value" title="Call +977 9805315275">+977 9805315275</a>
+            <div class="row-meta">
+              <span class="row-label">Phone</span>
+              <a href="tel:+9779805315275" class="row-value">+977 9805315275</a>
             </div>
-            <button class="copy-pill-btn" data-copy-target="+9779805315275" title="Copy phone number" aria-label="Copy phone number">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
-                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
-              </svg>
-            </button>
+            <span class="row-action-pill">Copy</span>
           </li>
 
-          <!-- Location -->
-          <li class="contact-item">
-            <div class="contact-icon-box" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <li class="contact-row" style="cursor: default;">
+            <div class="row-icon">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
                 <circle cx="12" cy="10" r="3"></circle>
               </svg>
             </div>
-            <div class="contact-info">
-              <span class="contact-label">Location</span>
-              <span class="contact-value">Sunsari, Nepal</span>
+            <div class="row-meta">
+              <span class="row-label">Location</span>
+              <span class="row-value">Sunsari / Dharan, Nepal</span>
             </div>
+            <span class="row-badge-subtle">GMT +5:45</span>
+          </li>
+
+          <li class="contact-row" style="cursor: default;">
+            <div class="row-icon">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <div class="row-meta">
+              <span class="row-label">Education</span>
+              <span class="row-value">BIT • CCT Dharan</span>
+            </div>
+            <span class="row-badge-subtle">CS Major</span>
           </li>
 
         </ul>
 
-        <!-- Social Channels -->
-        <div class="social-bar">
-          <a href="https://github.com/code-with-ushant" class="social-link" target="_blank" rel="noopener noreferrer" title="GitHub Profile" aria-label="GitHub">
+        <div class="divider-hairline"></div>
+
+        <!-- Social Channels Floating Dock -->
+        <div class="social-dock">
+          <a href="https://github.com/code-with-ushant" class="social-dock-item" target="_blank" rel="noopener noreferrer" title="GitHub (@code-with-ushant)" aria-label="GitHub">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
             </svg>
           </a>
 
-          <a href="https://www.linkedin.com/in/ushant-giri-a6683b337/" class="social-link" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/ushant-giri-a6683b337/" class="social-dock-item" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile" aria-label="LinkedIn">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
               <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76c.92 0 1.67-.75 1.67-1.67a1.67 1.67 0 1 0-3.34 0c0 .92.75 1.67 1.67 1.67m1.39 9.74v-8.37H5.07v8.37h2.78Z"></path>
             </svg>
           </a>
 
-          <a href="https://x.com/GiriUshant" class="social-link" target="_blank" rel="noopener noreferrer" title="X (Twitter) Profile" aria-label="X (Twitter)">
+          <a href="https://x.com/GiriUshant" class="social-dock-item" target="_blank" rel="noopener noreferrer" title="X (Twitter)" aria-label="X (Twitter)">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
             </svg>
           </a>
 
-          <a href="https://www.facebook.com/share/1C5GEY3EDp/" class="social-link" target="_blank" rel="noopener noreferrer" title="Facebook Profile" aria-label="Facebook">
+          <a href="https://www.facebook.com/share/1C5GEY3EDp/" class="social-dock-item" target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
               <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12Z"></path>
             </svg>
           </a>
 
-          <a href="https://www.instagram.com/ushantgaming" class="social-link" target="_blank" rel="noopener noreferrer" title="Instagram Profile" aria-label="Instagram">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <a href="https://www.instagram.com/ushantgaming" class="social-dock-item" target="_blank" rel="noopener noreferrer" title="Instagram" aria-label="Instagram">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
               <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
               <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
@@ -150,10 +162,10 @@
           </a>
         </div>
 
-        <!-- Theme Toggle Switch -->
-        <div class="theme-switch-container">
-          <span class="theme-switch-label">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Appearance Switcher -->
+        <div class="appearance-card">
+          <div class="appearance-label">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="12" cy="12" r="5"></circle>
               <line x1="12" y1="1" x2="12" y2="3"></line>
               <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -164,10 +176,10 @@
               <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
               <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
             </svg>
-            Appearance
-          </span>
-          <button class="theme-toggle-btn" data-theme-toggle title="Toggle light and dark mode" aria-label="Toggle theme">
-            <div class="theme-toggle-knob"></div>
+            <span>Appearance</span>
+          </div>
+          <button class="appearance-switch-track" data-theme-toggle title="Toggle appearance mode" aria-label="Toggle light and dark mode">
+            <span class="appearance-switch-thumb"></span>
           </button>
         </div>
 
@@ -177,469 +189,807 @@
 
 
     <!-- ====================================================================
-         MAIN CONTENT AREA
+         MAIN STUDIO CANVAS: Tabbed Navigation & Rich Section Articles
          ==================================================================== -->
-    <main class="main-content">
+    <main class="studio-canvas">
 
-      <!-- Apple Floating Translucent Segmented Navbar -->
+      <!-- Apple Floating Segmented Navigation Bar -->
       <header class="navbar-wrapper">
-        <nav class="navbar" aria-label="Main Navigation">
-          <div class="navbar-list" role="tablist">
-            <div class="nav-indicator" data-nav-indicator aria-hidden="true"></div>
-            <button class="nav-link active" data-nav-link="about" role="tab" aria-selected="true">About</button>
-            <button class="nav-link" data-nav-link="resume" role="tab" aria-selected="false">Resume</button>
-            <button class="nav-link" data-nav-link="portfolio" role="tab" aria-selected="false">Portfolio</button>
-            <button class="nav-link" data-nav-link="contact" role="tab" aria-selected="false">Contact</button>
+        <nav class="studio-navbar" aria-label="Main Navigation">
+
+          <div class="nav-segmented-track" role="tablist">
+            <div class="nav-sliding-pill" data-nav-indicator aria-hidden="true"></div>
+            <button class="nav-tab active" data-nav-link="about" role="tab" aria-selected="true">About</button>
+            <button class="nav-tab" data-nav-link="resume" role="tab" aria-selected="false">Resume</button>
+            <button class="nav-tab" data-nav-link="portfolio" role="tab" aria-selected="false">Portfolio</button>
+            <button class="nav-tab" data-nav-link="milestones" role="tab" aria-selected="false">Milestones</button>
+            <button class="nav-tab" data-nav-link="contact" role="tab" aria-selected="false">Contact</button>
           </div>
+
+          <button class="nav-spotlight-pill" data-spotlight-open aria-label="Open Spotlight search (Cmd + K)">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <span class="spotlight-key-badge">⌘K</span>
+          </button>
+
         </nav>
       </header>
 
 
       <!-- ================================================================
-           TAB 1: ABOUT ME
+           TAB 1: ABOUT ME (FOUNDER & PROBLEM SOLVER NARRATIVE)
            ================================================================ -->
-      <article class="content-article active" data-page="about" role="tabpanel">
+      <article class="tab-panel active" data-page="about" role="tabpanel">
 
-        <header class="article-header">
-          <h2 class="article-title">About Me</h2>
-          <p class="article-subtitle">Background, philosophy, and technical foundation</p>
+        <header class="panel-header">
+          <div class="header-pre-badge">About Me</div>
+          <h2 class="panel-title">Software Developer, Founder &amp; Problem Solver</h2>
+          <p class="panel-subtitle">Architecting resilient full-stack systems, cloud services, and real-time telemetry from problem definition to production.</p>
         </header>
 
-        <section class="hero-intro">
-          <p class="hero-lead">
-            Hi, I'm <strong style="color: var(--text-primary); font-weight: 600;">Ushant Giri</strong> — a software developer and tech enthusiast from Nepal passionate about engineering robust software, solving algorithmic problems, and sharing knowledge.
+        <!-- Editorial Hero Intro -->
+        <section class="editorial-hero">
+          <p class="editorial-lead">
+            Hi, I'm <strong style="color: var(--text-primary); font-weight: 600;">Ushant Giri</strong> — a software developer, founder, and systems builder based in Sunsari, Nepal. I approach engineering by identifying tangible operational friction, designing resilient architectures, and building production-ready products from conception to deployment.
           </p>
-          <p class="body-text">
-            Graduate in <strong>Bachelor of Information Technology (BIT)</strong> Computer Science from the <strong>Central Campus of Technology (CCT), Dharan</strong>. I combine rigorous computational thinking with practical web and backend engineering to build intuitive, resilient applications.
+          <p class="editorial-body">
+            Graduate in <strong>Bachelor of Information Technology (BIT) Computer Science</strong> from the <strong>Central Campus of Technology (CCT), Dharan — Tribhuvan University</strong>, and <strong>Co-Founder of KOLVE</strong> along with 3 co-founders. My engineering practice bridges low-level computational foundations in C/C++ and Data Structures with modern cloud backend architecture using <strong>FastAPI</strong>, <strong>Supabase</strong>, and <strong>Firebase</strong>.
           </p>
         </section>
 
-        <!-- Apple Bento Grid for Story & Philosophy -->
-        <section class="bento-grid">
-
-          <div class="bento-card">
-            <div class="bento-icon-wrapper" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 2v4"></path>
-                <path d="m4.93 4.93 2.83 2.83"></path>
-                <path d="M2 12h4"></path>
-                <path d="m4.93 19.07 2.83-2.83"></path>
-                <path d="M12 22v-4"></path>
-                <path d="m19.07 19.07-2.83-2.83"></path>
-                <path d="M22 12h-4"></path>
-                <path d="m19.07 4.93-2.83 2.83"></path>
-                <circle cx="12" cy="12" r="4"></circle>
-              </svg>
-            </div>
-            <h3 class="bento-title">Practical Learning</h3>
-            <p class="bento-text">
-              I believe in direct experimentation over passive consumption. When discovering new concepts, I build, break, iterate, and apply them in real-world software scenarios.
-            </p>
+        <!-- Personal & Academic Profile Metrics -->
+        <div class="keynote-specs-ribbon">
+          <div class="spec-cell">
+            <span class="spec-number">BIT Dharan</span>
+            <span class="spec-description">Tribhuvan University</span>
           </div>
-
-          <div class="bento-card">
-            <div class="bento-icon-wrapper" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"></path>
-                <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                <path d="M12 2v2"></path>
-                <path d="M12 20v2"></path>
-                <path d="m4.93 4.93 1.41 1.41"></path>
-                <path d="m17.66 17.66 1.41 1.41"></path>
-                <path d="M2 12h2"></path>
-                <path d="M20 12h2"></path>
-                <path d="m6.34 17.66-1.41 1.41"></path>
-                <path d="m19.07 4.93-1.41 1.41"></path>
-              </svg>
-            </div>
-            <h3 class="bento-title">Systematic Problem Solving</h3>
-            <p class="bento-text">
-              I break complex engineering challenges down into manageable steps. My foundation in Data Structures & Algorithms (DSA) guides efficient algorithmic implementation.
-            </p>
+          <div class="spec-cell">
+            <span class="spec-number">Systems &amp; Cloud</span>
+            <span class="spec-description">FastAPI, Supabase, Firebase</span>
           </div>
-
-          <div class="bento-card">
-            <div class="bento-icon-wrapper" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path>
-              </svg>
-            </div>
-            <h3 class="bento-title">Impact & Vision</h3>
-            <p class="bento-text">
-              Committed to developing dependable tech solutions, authoring educational developer content, and contributing meaningfully to open-source software and global collaborations.
-            </p>
+          <div class="spec-cell">
+            <span class="spec-number">Core Engineering</span>
+            <span class="spec-description">C / C++ &amp; DSA Foundations</span>
           </div>
+          <div class="spec-cell">
+            <span class="spec-number">End-to-End</span>
+            <span class="spec-description">Problem to Production</span>
+          </div>
+        </div>
 
-        </section>
+        <!-- Learning Process & Problem Solving Foundations -->
+        <section class="foundations-flow">
+          <h3 class="flow-heading">Core Philosophy &amp; Execution</h3>
 
-        <!-- Featured Projects Preview -->
-        <section>
-          <h3 class="section-title">Featured Highlights</h3>
-          <div class="project-grid">
-
-            <div class="project-card">
-              <div class="project-media">
-                <img src="assets/image/project web.png" alt="Personal Portfolio Website Preview" class="project-img" loading="lazy">
-                <span class="project-badge">Web Design</span>
+          <div class="pillars-editorial-row">
+            <div class="pillar-column">
+              <div class="pillar-header-flex">
+                <span class="pillar-step-number">01</span>
+                <h4 class="pillar-title">Root-Cause Problem Solving</h4>
               </div>
-              <div class="project-body">
-                <h4 class="project-title">Personal Portfolio Website</h4>
-                <p class="project-desc">
-                  A modern, responsive portfolio architecture designed to showcase projects, skills, and personal story with clean typography and fast interaction.
-                </p>
-                <div class="project-tags">
-                  <span class="project-tag">HTML5</span>
-                  <span class="project-tag">CSS3</span>
-                  <span class="project-tag">JavaScript</span>
-                  <span class="project-tag">Responsive UI</span>
-                </div>
-                <div class="project-actions">
-                  <a href="https://github.com/code-with-ushant/webproject" target="_blank" rel="noopener noreferrer" class="btn-secondary">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
-                    </svg>
-                    <span>Source Code</span>
-                  </a>
-                </div>
-              </div>
+              <p class="pillar-body">
+                I treat engineering as problem deconstruction rather than routine syntax. Whether optimizing low-latency data pipelines or architecting transit telemetry, I isolate the core bottleneck first, design predictable data flows, and build systems that scale cleanly under real-world constraints.
+              </p>
             </div>
 
-            <div class="project-card">
-              <div class="project-media">
-                <img src="assets/image/Screenshot 2026-01-03 222805.png" alt="Student Database Management System" class="project-img" loading="lazy">
-                <span class="project-badge">Programming & DSA</span>
+            <div class="pillar-column">
+              <div class="pillar-header-flex">
+                <span class="pillar-step-number">02</span>
+                <h4 class="pillar-title">Founder Mindset &amp; Ownership</h4>
               </div>
-              <div class="project-body">
-                <h4 class="project-title">Student Data Management System</h4>
-                <p class="project-desc">
-                  A structured records management system engineered in C. Implements file persistence, record indexing, search routines, and algorithmic operations.
-                </p>
-                <div class="project-tags">
-                  <span class="project-tag">C Language</span>
-                  <span class="project-tag">DSA</span>
-                  <span class="project-tag">File Handling</span>
-                  <span class="project-tag">Algorithms</span>
-                </div>
-                <div class="project-actions">
-                  <a href="https://github.com/code-with-ushant/learning-c/blob/main/otherproject/student_database.c" target="_blank" rel="noopener noreferrer" class="btn-secondary">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
-                    </svg>
-                    <span>Source Code</span>
-                  </a>
-                </div>
-              </div>
+              <p class="pillar-body">
+                A developer must understand product utility, user friction, and operational viability. Having co-founded <strong>KOLVE</strong> alongside 3 partners, and initiated tools like the CCT Real-Time Campus Bus Tracker from ground zero, I take end-to-end ownership—from database schema and API contracts to UX clarity, client communication, and live deployment.
+              </p>
             </div>
 
+            <div class="pillar-column">
+              <div class="pillar-header-flex">
+                <span class="pillar-step-number">03</span>
+                <h4 class="pillar-title">Systems Craft &amp; Cloud Architecture</h4>
+              </div>
+              <p class="pillar-body">
+                Grounded in memory management, algorithmic complexity, and structured file persistence, I combine strict computer science principles with high-velocity cloud services like FastAPI, Supabase, and Firebase to ship reliable, high-throughput software.
+              </p>
+            </div>
           </div>
         </section>
 
-        <!-- Technical Skills Matrix -->
-        <section class="skills-section">
-          <h3 class="section-title">Skills & Technologies</h3>
+        <!-- Technical Stack -->
+        <section class="section-group">
+          <h3 class="flow-heading">Technology &amp; Tooling</h3>
 
-          <div class="skills-category-group">
-            <h4 class="skills-category-title">Frontend & User Interfaces</h4>
-            <div class="skills-badge-list">
-              <span class="skill-chip"><span class="skill-dot"></span>JavaScript (ES6+)</span>
-              <span class="skill-chip"><span class="skill-dot"></span>CSS3 & Modern Layouts</span>
-              <span class="skill-chip"><span class="skill-dot"></span>HTML5 Semantic Architecture</span>
-              <span class="skill-chip"><span class="skill-dot"></span>Responsive Web Design</span>
+          <div class="skills-spectrum-grid">
+            <div class="spectrum-category">
+              <span class="spectrum-label">Core Languages</span>
+              <div class="chips-flex">
+                <span class="skill-frosted-chip">Python</span>
+                <span class="skill-frosted-chip">C / C++</span>
+                <span class="skill-frosted-chip">JavaScript (ES6+)</span>
+                <span class="skill-frosted-chip">HTML5 / CSS3</span>
+              </div>
+            </div>
+
+            <div class="spectrum-category">
+              <span class="spectrum-label">Backend &amp; APIs</span>
+              <div class="chips-flex">
+                <span class="skill-frosted-chip">FastAPI</span>
+                <span class="skill-frosted-chip">Node.js</span>
+                <span class="skill-frosted-chip">RESTful APIs</span>
+                <span class="skill-frosted-chip">WebSockets</span>
+              </div>
+            </div>
+
+            <div class="spectrum-category">
+              <span class="spectrum-label">Cloud &amp; Databases</span>
+              <div class="chips-flex">
+                <span class="skill-frosted-chip">Supabase</span>
+                <span class="skill-frosted-chip">Firebase</span>
+                <span class="skill-frosted-chip">PostgreSQL / SQL</span>
+                <span class="skill-frosted-chip">MongoDB</span>
+              </div>
+            </div>
+
+            <div class="spectrum-category">
+              <span class="spectrum-label">Systems &amp; Tooling</span>
+              <div class="chips-flex">
+                <span class="skill-frosted-chip">Data Structures (DSA)</span>
+                <span class="skill-frosted-chip">Git &amp; GitHub</span>
+                <span class="skill-frosted-chip">Linux &amp; Bash</span>
+                <span class="skill-frosted-chip">n8n Automation</span>
+              </div>
             </div>
           </div>
+        </section>
 
-          <div class="skills-category-group">
-            <h4 class="skills-category-title">Backend & Systems</h4>
-            <div class="skills-badge-list">
-              <span class="skill-chip"><span class="skill-dot"></span>Python (Flask)</span>
-              <span class="skill-chip"><span class="skill-dot"></span>Node.js</span>
-              <span class="skill-chip"><span class="skill-dot"></span>RESTful APIs</span>
-            </div>
+        <!-- Portfolio Discovery Banner -->
+        <section class="section-group discovery-cta-card">
+          <div class="cta-text-group">
+            <h4 class="cta-title">Looking for my code and projects?</h4>
+            <p class="cta-subtext">Explore production systems, video streaming, campus bus telemetry, and C record programs in the portfolio.</p>
           </div>
-
-          <div class="skills-category-group">
-            <h4 class="skills-category-title">Programming & Problem Solving</h4>
-            <div class="skills-badge-list">
-              <span class="skill-chip"><span class="skill-dot"></span>C (Data Structures & Algorithms)</span>
-              <span class="skill-chip"><span class="skill-dot"></span>C++</span>
-              <span class="skill-chip"><span class="skill-dot"></span>Python (NumPy, Pandas)</span>
-            </div>
-          </div>
-
-          <div class="skills-category-group">
-            <h4 class="skills-category-title">Databases & Storage</h4>
-            <div class="skills-badge-list">
-              <span class="skill-chip"><span class="skill-dot"></span>MongoDB</span>
-              <span class="skill-chip"><span class="skill-dot"></span>SQL (Relational Databases)</span>
-            </div>
-          </div>
-
-          <div class="skills-category-group">
-            <h4 class="skills-category-title">Tools & Automation</h4>
-            <div class="skills-badge-list">
-              <span class="skill-chip"><span class="skill-dot"></span>Git & GitHub</span>
-              <span class="skill-chip"><span class="skill-dot"></span>n8n Automation</span>
-              <span class="skill-chip"><span class="skill-dot"></span>CLI & Shell Scripting</span>
-            </div>
-          </div>
-
+          <button class="btn-apple-primary cta-btn" data-nav-link="portfolio">
+            <span>Explore Portfolio &amp; Repositories</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
         </section>
 
       </article>
 
 
       <!-- ================================================================
-           TAB 2: RESUME & EDUCATION
+           TAB 2: RESUME & ACADEMIC BACKGROUND
            ================================================================ -->
-      <article class="content-article" data-page="resume" role="tabpanel">
+      <article class="tab-panel" data-page="resume" role="tabpanel">
 
-        <header class="article-header">
-          <h2 class="article-title">Resume & Education</h2>
-          <p class="article-subtitle">Formal education, competencies, and engineering journey</p>
+        <header class="panel-header">
+          <div class="header-pre-badge">Credentials</div>
+          <h2 class="panel-title">Resume &amp; Education</h2>
+          <p class="panel-subtitle">Formal computer science degree, systems competencies, and technical background.</p>
         </header>
 
-        <section class="resume-section">
-          <h3 class="section-title">Education</h3>
+        <!-- Venture & Engineering Leadership Experience -->
+        <section class="section-group">
+          <h3 class="flow-heading">Venture &amp; Engineering Experience</h3>
 
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <span class="timeline-bullet" aria-hidden="true"></span>
-              <div class="timeline-card">
-                <div class="timeline-header">
-                  <h4 class="timeline-title">Bachelor of Information Technology (BIT)</h4>
-                  <span class="timeline-period">Graduate</span>
-                </div>
-                <div class="timeline-institution">Central Campus of Technology (CCT), Dharan — Tribhuvan University</div>
-                <p class="timeline-description">
-                  Focused on computer science fundamentals, data structures, algorithms, database management systems, software engineering methodologies, and systems programming.
-                </p>
+          <div class="timeline-stream">
+            <!-- Kolve -->
+            <div class="stream-node">
+              <div class="node-indicator">
+                <span class="node-dot" style="background: #30d158; box-shadow: 0 0 10px rgba(48,209,88,0.5);"></span>
               </div>
-            </li>
-          </ol>
+              <div class="node-content">
+                <div class="node-heading-row">
+                  <h4 class="node-title">Co-Founder &amp; Lead Systems Engineer</h4>
+                  <span class="node-badge" style="background: rgba(48,209,88,0.12); color: #30d158; border-color: rgba(48,209,88,0.25);">KOLVE Studio</span>
+                </div>
+                <div class="node-subtitle">Sunsari, Nepal • Co-Founded along with 3 Partners</div>
+                <p class="node-body">
+                  Co-founded KOLVE, an independent digital service provider and practical solutions studio, with 3 partners (Sandesh Sunar, Bhishan Katwal, Jeshis Jamarkatel). Leading technical direction, systems design, and backend infrastructure. Architected full-stack web platforms using Next.js 16, TypeScript, Tailwind CSS v4, automated CI quality audits, and high-performance serverless endpoints.
+                </p>
+                <div class="chips-flex" style="margin-top: 0.75rem;">
+                  <span class="skill-frosted-chip">Co-Founder</span>
+                  <span class="skill-frosted-chip">Next.js 16</span>
+                  <span class="skill-frosted-chip">TypeScript</span>
+                  <span class="skill-frosted-chip">Tailwind CSS v4</span>
+                  <span class="skill-frosted-chip">Systems Architecture</span>
+                  <span class="skill-frosted-chip">Automated CI</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lord's Home Nepal -->
+            <div class="stream-node">
+              <div class="node-indicator">
+                <span class="node-dot"></span>
+              </div>
+              <div class="node-content">
+                <div class="node-heading-row">
+                  <h4 class="node-title">Lead Full-Stack Developer</h4>
+                  <span class="node-badge">Lord's Home Nepal</span>
+                </div>
+                <div class="node-subtitle">Basantatar, Dharan-04, Sunsari, Nepal</div>
+                <p class="node-body">
+                  Engineered the official web platform and administrative content management service for Lord's Home Nepal children's welfare residence. Designed a zero-dependency native Node.js HTTP server with strict defensive security headers, a bidirectional English/Nepali bilingual engine, and automated child identity privacy face-blurring tooling.
+                </p>
+                <div class="chips-flex" style="margin-top: 0.75rem;">
+                  <span class="skill-frosted-chip">Node.js Server</span>
+                  <span class="skill-frosted-chip">Security Headers</span>
+                  <span class="skill-frosted-chip">Bilingual Engine</span>
+                  <span class="skill-frosted-chip">Privacy Safeguards</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
-        <section class="resume-section">
-          <h3 class="section-title">Core Engineering Competencies</h3>
+        <!-- Education Flow -->
+        <section class="section-group">
+          <h3 class="flow-heading">Academic Degree</h3>
 
-          <div class="competencies-grid">
+          <div class="timeline-stream">
+            <div class="stream-node">
+              <div class="node-indicator">
+                <span class="node-dot"></span>
+              </div>
+              <div class="node-content">
+                <div class="node-heading-row">
+                  <h4 class="node-title">Bachelor of Information Technology (BIT)</h4>
+                  <span class="node-badge">Tribhuvan University</span>
+                </div>
+                <div class="node-subtitle">Central Campus of Technology (CCT), Dharan, Nepal</div>
+                <p class="node-body">
+                  Rigorous 4-year curriculum covering Operating Systems, Distributed Systems, Algorithms, Computer Networks, Database Management Systems, Compiler Construction, and Software Engineering.
+                </p>
+                <div class="chips-flex" style="margin-top: 0.75rem;">
+                  <span class="skill-frosted-chip">Operating Systems</span>
+                  <span class="skill-frosted-chip">Data Structures</span>
+                  <span class="skill-frosted-chip">Computer Networks</span>
+                  <span class="skill-frosted-chip">Systems Programming</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-            <div class="competency-item">
-              <div class="competency-icon" aria-hidden="true">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Engineering Competencies Matrix -->
+        <section class="section-group">
+          <h3 class="flow-heading">Core Engineering Competencies</h3>
+
+          <div class="competencies-grid-clean">
+            <div class="competency-card">
+              <div class="competency-icon-ring">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <polyline points="16 18 22 12 16 6"></polyline>
                   <polyline points="8 6 2 12 8 18"></polyline>
                 </svg>
               </div>
-              <div>
-                <h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: 0.25rem;">Algorithmic Thinking & DSA</h4>
-                <p style="font-size: var(--fs-xs); color: var(--text-secondary); line-height: 1.5;">
-                  Solid grasp of algorithmic complexity, memory management, pointers, and data structures in C and C++.
+              <h4 class="competency-name">Low-Level Systems &amp; DSA</h4>
+              <p class="competency-desc">
+                Algorithmic problem solving, pointer arithmetic, binary data structures, and memory layout optimization in C and C++.
+              </p>
+            </div>
+
+            <div class="competency-card">
+              <div class="competency-icon-ring">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                </svg>
+              </div>
+              <h4 class="competency-name">Video Pipelines &amp; Codecs</h4>
+              <p class="competency-desc">
+                Hardware H.264 video encoding via Android MediaCodec Surface, PyAV zero-latency decoding, and socket transport.
+              </p>
+            </div>
+
+            <div class="competency-card">
+              <div class="competency-icon-ring">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <h4 class="competency-name">Real-Time Transit &amp; Telemetry</h4>
+              <p class="competency-desc">
+                Bi-directional WebSocket streaming, GPS coordinate calculations, and interactive map visualizations with Leaflet.
+              </p>
+            </div>
+
+            <div class="competency-card">
+              <div class="competency-icon-ring">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+                </svg>
+              </div>
+              <h4 class="competency-name">Cloud Architecture &amp; APIs</h4>
+              <p class="competency-desc">
+                High-performance asynchronous services using FastAPI, relational and realtime data modeling with Supabase and Firebase, and WebSocket coordination.
+              </p>
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+
+      <!-- ================================================================
+           TAB 3: PORTFOLIO & REAL GITHUB REPOSITORIES
+           ================================================================ -->
+      <article class="tab-panel" data-page="portfolio" role="tabpanel">
+
+        <header class="panel-header">
+          <div class="header-pre-badge">Verified Code</div>
+          <h2 class="panel-title">Engineering Projects &amp; Repositories</h2>
+          <p class="panel-subtitle">Production-grade software built and hosted under GitHub profile @code-with-ushant.</p>
+        </header>
+
+        <!-- Category Filter Bar -->
+        <div class="portfolio-filter-row" role="tablist" aria-label="Project Categories">
+          <button class="filter-pill active" data-filter-btn="all">All Projects</button>
+          <button class="filter-pill" data-filter-btn="web">Web &amp; Ventures</button>
+          <button class="filter-pill" data-filter-btn="sys">Systems &amp; Video</button>
+          <button class="filter-pill" data-filter-btn="dsa">Algorithms &amp; C</button>
+        </div>
+
+        <div class="portfolio-grid">
+
+          <!-- Project 0: KOLVE Digital Solutions Studio (Co-Founder) -->
+          <div class="project-showcase-tile" data-filter-item data-category="web">
+            <div class="tile-media-wrapper" data-open-project="kolve">
+              <img src="assets/image/kolve_studio.svg" alt="KOLVE Digital Solutions Studio" class="tile-img" loading="lazy">
+              <span class="tile-category-tag" style="background: rgba(48,209,88,0.18); color: #30d158; border-color: rgba(48,209,88,0.35);">Co-Founder • Venture</span>
+            </div>
+            <div class="tile-content">
+              <h3 class="tile-title">KOLVE — Digital Solutions &amp; Web Platform</h3>
+              <p class="tile-summary">
+                Independent digital service provider and practical software studio in Sunsari, Nepal. Co-founded along with 3 partners (Sandesh, Bhishan, Jeshis). High-throughput web platform built with Next.js 16, TypeScript, Tailwind CSS v4, and automated CI quality audits.
+              </p>
+              <div class="chips-flex" style="margin-bottom: 1.15rem;">
+                <span class="skill-frosted-chip">Co-Founder (Team of 4)</span>
+                <span class="skill-frosted-chip">Next.js 16</span>
+                <span class="skill-frosted-chip">TypeScript</span>
+                <span class="skill-frosted-chip">Tailwind CSS v4</span>
+              </div>
+              <div class="tile-actions">
+                <a href="https://github.com/KOLV3/KOLV3" target="_blank" rel="noopener noreferrer" class="btn-apple-primary">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+                <button class="btn-apple-frosted" data-open-project="kolve">
+                  <span>Architecture</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 1: Wireless Webcam Pro -->
+          <div class="project-showcase-tile" data-filter-item data-category="sys">
+            <div class="tile-media-wrapper" data-open-project="sys">
+              <img src="assets/image/wireless_webcam.svg" alt="Wireless Webcam Pro" class="tile-img" loading="lazy">
+              <span class="tile-category-tag">Systems &amp; Video</span>
+            </div>
+            <div class="tile-content">
+              <h3 class="tile-title">Wireless Webcam Pro</h3>
+              <p class="tile-summary">
+                Low-latency video streaming system turning Android phones into 1080p 60FPS cameras for OBS Studio &amp; Zoom over local Wi-Fi with sub-50ms latency.
+              </p>
+              <div class="chips-flex" style="margin-bottom: 1.15rem;">
+                <span class="skill-frosted-chip">Python</span>
+                <span class="skill-frosted-chip">Android MediaCodec</span>
+                <span class="skill-frosted-chip">PyAV</span>
+                <span class="skill-frosted-chip">Socket I/O</span>
+              </div>
+              <div class="tile-actions">
+                <a href="https://github.com/code-with-ushant/Wireless-Webcam-Pro" target="_blank" rel="noopener noreferrer" class="btn-apple-primary">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+                <button class="btn-apple-frosted" data-open-project="sys">
+                  <span>Specs</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: CCT Bus Tracker -->
+          <div class="project-showcase-tile" data-filter-item data-category="web">
+            <div class="tile-media-wrapper" data-open-project="web">
+              <img src="assets/image/bustracker.png" alt="CCT Real-Time Bus Tracker" class="tile-img" loading="lazy">
+              <span class="tile-category-tag">Transit &amp; Telemetry</span>
+            </div>
+            <div class="tile-content">
+              <h3 class="tile-title">CCT Real-Time Campus Bus Tracker</h3>
+              <p class="tile-summary">
+                Live transit telemetry system built for Central Campus of Technology (CCT), Dharan. Real-time Android GPS streaming to WebSocket hub with Leaflet map tracking.
+              </p>
+              <div class="chips-flex" style="margin-bottom: 1.15rem;">
+                <span class="skill-frosted-chip">Node.js</span>
+                <span class="skill-frosted-chip">WebSockets</span>
+                <span class="skill-frosted-chip">Leaflet.js</span>
+                <span class="skill-frosted-chip">Android GPS</span>
+              </div>
+              <div class="tile-actions">
+                <button class="btn-apple-primary" data-open-project="web">
+                  <span>Architecture &amp; Demo</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Lord's Home Nepal Welfare Platform -->
+          <div class="project-showcase-tile" data-filter-item data-category="web">
+            <div class="tile-media-wrapper" data-open-project="lords">
+              <img src="assets/image/lordshome_platform.svg" alt="Lord's Home Nepal Welfare Platform" class="tile-img" loading="lazy">
+              <span class="tile-category-tag" style="background: rgba(255,159,10,0.18); color: #ff9f0a; border-color: rgba(255,159,10,0.35);">Full-Stack &amp; Privacy</span>
+            </div>
+            <div class="tile-content">
+              <h3 class="tile-title">Lord's Home Nepal Welfare Platform</h3>
+              <p class="tile-summary">
+                Official web platform and staff administration service for Lord's Home Nepal child welfare center. Features zero-dependency native Node.js HTTP server, bidirectional English/Nepali bilingual engine, and automated child face-blurring privacy safeguard.
+              </p>
+              <div class="chips-flex" style="margin-bottom: 1.15rem;">
+                <span class="skill-frosted-chip">Node.js Core</span>
+                <span class="skill-frosted-chip">Defensive Security</span>
+                <span class="skill-frosted-chip">Bilingual Engine</span>
+                <span class="skill-frosted-chip">Privacy Safeguards</span>
+              </div>
+              <div class="tile-actions">
+                <a href="https://github.com/jeshisjamarkatel/lordshomenepal" target="_blank" rel="noopener noreferrer" class="btn-apple-primary">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+                <button class="btn-apple-frosted" data-open-project="lords">
+                  <span>Specs</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Student Data Management in C -->
+          <div class="project-showcase-tile" data-filter-item data-category="dsa">
+            <div class="tile-media-wrapper" data-open-project="dsa">
+              <img src="assets/image/Screenshot 2026-01-03 222805.png" alt="Student Database Management in C" class="tile-img" loading="lazy">
+              <span class="tile-category-tag">C &amp; Algorithms</span>
+            </div>
+            <div class="tile-content">
+              <h3 class="tile-title">Student Data Management System</h3>
+              <p class="tile-summary">
+                High-performance record indexing engine written in C. Implements structured binary file persistence, memory index tables, and fast binary search queries.
+              </p>
+              <div class="chips-flex" style="margin-bottom: 1.15rem;">
+                <span class="skill-frosted-chip">C Language</span>
+                <span class="skill-frosted-chip">Data Structures</span>
+                <span class="skill-frosted-chip">Binary I/O</span>
+                <span class="skill-frosted-chip">Algorithms</span>
+              </div>
+              <div class="tile-actions">
+                <a href="https://github.com/code-with-ushant/learning-c/blob/main/otherproject/student_database.c" target="_blank" rel="noopener noreferrer" class="btn-apple-primary">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
+                  </svg>
+                  <span>C Source Code</span>
+                </a>
+                <button class="btn-apple-frosted" data-open-project="dsa">
+                  <span>Details</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Library Bookkeeping in C -->
+          <div class="project-showcase-tile" data-filter-item data-category="dsa">
+            <div class="tile-media-wrapper" data-open-project="lib">
+              <img src="assets/image/library_system.svg" alt="Library Bookkeeping System in C" class="tile-img" loading="lazy">
+              <span class="tile-category-tag">C &amp; Struct Records</span>
+            </div>
+            <div class="tile-content">
+              <h3 class="tile-title">Library Bookkeeping &amp; Inventory System</h3>
+              <p class="tile-summary">
+                A structured cataloging and inventory management system written in C. Implements custom struct records, dynamic memory allocation for variable catalog sizes, and author-based search queries.
+              </p>
+              <div class="chips-flex" style="margin-bottom: 1.15rem;">
+                <span class="skill-frosted-chip">C Language</span>
+                <span class="skill-frosted-chip">Struct Memory</span>
+                <span class="skill-frosted-chip">Dynamic Allocation</span>
+                <span class="skill-frosted-chip">Search Filters</span>
+              </div>
+              <div class="tile-actions">
+                <a href="https://github.com/code-with-ushant/learning-c/blob/main/otherproject/library_bookkeeping.c" target="_blank" rel="noopener noreferrer" class="btn-apple-primary">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
+                  </svg>
+                  <span>C Source Code</span>
+                </a>
+                <button class="btn-apple-frosted" data-open-project="lib">
+                  <span>Details</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Personal Portfolio & Design System -->
+          <div class="project-showcase-tile" data-filter-item data-category="web">
+            <div class="tile-media-wrapper" data-open-project="arch">
+              <img src="assets/image/project web.png" alt="Personal Portfolio Design System" class="tile-img" loading="lazy">
+              <span class="tile-category-tag">Web Architecture</span>
+            </div>
+            <div class="tile-content">
+              <h3 class="tile-title">Portfolio &amp; Apple Design System</h3>
+              <p class="tile-summary">
+                Engineered with Apple WWDC design principles: floating segmented navbar, macOS Spotlight search, synthesized Web Audio haptics, and zero external bloat.
+              </p>
+              <div class="chips-flex" style="margin-bottom: 1.15rem;">
+                <span class="skill-frosted-chip">HTML5</span>
+                <span class="skill-frosted-chip">CSS3</span>
+                <span class="skill-frosted-chip">JavaScript</span>
+                <span class="skill-frosted-chip">Web Audio API</span>
+              </div>
+              <div class="tile-actions">
+                <a href="https://github.com/code-with-ushant/UShantgiri" target="_blank" rel="noopener noreferrer" class="btn-apple-primary">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
+                  </svg>
+                  <span>Repository</span>
+                </a>
+                <button class="btn-apple-frosted" data-open-project="arch">
+                  <span>Architecture</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- ================================================================
+           TAB 4: MILESTONES & VENTURE IMPACT TIMELINE
+           ================================================================ -->
+      <article class="tab-panel" data-page="milestones" role="tabpanel">
+
+        <header class="panel-header">
+          <div class="header-pre-badge">Track Record &amp; Impact</div>
+          <h2 class="panel-title">Key Milestones &amp; Ventures</h2>
+          <p class="panel-subtitle">Chronological record of ventures co-founded, production systems shipped, and real-world engineering milestones.</p>
+        </header>
+
+        <!-- Milestones Stream -->
+        <section class="section-group" style="margin-top: 1.5rem;">
+          <div class="timeline-stream">
+
+            <!-- Milestone 1: KOLVE -->
+            <div class="stream-node">
+              <div class="node-indicator">
+                <span class="node-dot" style="background: #30d158; box-shadow: 0 0 12px rgba(48,209,88,0.55);"></span>
+              </div>
+              <div class="node-content">
+                <div class="node-heading-row">
+                  <h4 class="node-title">Co-Founded KOLVE Studio</h4>
+                  <span class="node-badge" style="background: rgba(48,209,88,0.12); color: #30d158; border: 1px solid rgba(48,209,88,0.25); padding: 2px 8px; border-radius: 6px;">2026 • Venture</span>
+                </div>
+                <div class="node-subtitle">Sunsari, Nepal • Co-Founded along with 3 Partners (Sandesh, Bhishan, Jeshis)</div>
+                <p class="node-body">
+                  Established KOLVE as an independent digital service provider and practical solutions studio. Leading technical direction, systems design, and backend infrastructure. Architected full-stack web platforms using Next.js 16, TypeScript, Tailwind CSS v4, automated CI quality audits, and high-performance serverless endpoints.
                 </p>
+                <div class="chips-flex" style="margin-top: 0.75rem;">
+                  <span class="skill-frosted-chip">Startup Co-Founder</span>
+                  <span class="skill-frosted-chip">Next.js 16</span>
+                  <span class="skill-frosted-chip">TypeScript</span>
+                  <span class="skill-frosted-chip">Tailwind CSS v4</span>
+                  <span class="skill-frosted-chip">Systems Architecture</span>
+                </div>
               </div>
             </div>
 
-            <div class="competency-item">
-              <div class="competency-icon" aria-hidden="true">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="2"></rect>
-                  <path d="M3 9h18"></path>
-                  <path d="M9 21V9"></path>
-                </svg>
+            <!-- Milestone 2: CCT Bus Tracker -->
+            <div class="stream-node">
+              <div class="node-indicator">
+                <span class="node-dot"></span>
               </div>
-              <div>
-                <h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: 0.25rem;">Modern Web Interfaces</h4>
-                <p style="font-size: var(--fs-xs); color: var(--text-secondary); line-height: 1.5;">
-                  Crafting accessible, semantic, and high-performance user interfaces with modern JavaScript and CSS systems.
+              <div class="node-content">
+                <div class="node-heading-row">
+                  <h4 class="node-title">CCT Real-Time Campus Bus Tracker Deployment</h4>
+                  <span class="node-badge" style="background: rgba(41,151,255,0.12); color: #2997ff; border: 1px solid rgba(41,151,255,0.25); padding: 2px 8px; border-radius: 6px;">2026 • Transit Telemetry</span>
+                </div>
+                <div class="node-subtitle">Central Campus of Technology (CCT), Dharan — Tribhuvan University</div>
+                <p class="node-body">
+                  Engineered and deployed an end-to-end live transit telemetry system solving commute uncertainty for students and staff. Integrated an Android GPS background driver streaming real-time coordinates to a Node.js WebSocket coordination hub with Leaflet route tracking and dynamic arrival estimates.
                 </p>
+                <div class="chips-flex" style="margin-top: 0.75rem;">
+                  <span class="skill-frosted-chip">Live Campus Deployment</span>
+                  <span class="skill-frosted-chip">Node.js</span>
+                  <span class="skill-frosted-chip">WebSockets</span>
+                  <span class="skill-frosted-chip">Leaflet.js</span>
+                  <span class="skill-frosted-chip">Android GPS</span>
+                </div>
               </div>
             </div>
 
-            <div class="competency-item">
-              <div class="competency-icon" aria-hidden="true">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-                  <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
-                </svg>
+            <!-- Milestone 3: Lord's Home Nepal -->
+            <div class="stream-node">
+              <div class="node-indicator">
+                <span class="node-dot" style="background: #ff9f0a; box-shadow: 0 0 12px rgba(255,159,10,0.5);"></span>
               </div>
-              <div>
-                <h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: 0.25rem;">Backend & Data Services</h4>
-                <p style="font-size: var(--fs-xs); color: var(--text-secondary); line-height: 1.5;">
-                  Experience writing RESTful web services in Python Flask and Node.js with SQL and NoSQL data stores.
+              <div class="node-content">
+                <div class="node-heading-row">
+                  <h4 class="node-title">Lord's Home Nepal Welfare Platform Launch</h4>
+                  <span class="node-badge" style="background: rgba(255,159,10,0.12); color: #ff9f0a; border: 1px solid rgba(255,159,10,0.25); padding: 2px 8px; border-radius: 6px;">2026 • Social Impact</span>
+                </div>
+                <div class="node-subtitle">Basantatar, Dharan-04, Sunsari, Nepal</div>
+                <p class="node-body">
+                  Architected and deployed the official public platform and staff portal for Lord's Home Nepal alternative-care children's welfare residence. Engineered a zero-dependency native Node.js HTTP server, bidirectional English/Nepali bilingual engine, and automated image mosaic face-blur tooling to safeguard child privacy.
                 </p>
+                <div class="chips-flex" style="margin-top: 0.75rem;">
+                  <span class="skill-frosted-chip">Production Deployment</span>
+                  <span class="skill-frosted-chip">Node.js Core</span>
+                  <span class="skill-frosted-chip">Security Headers</span>
+                  <span class="skill-frosted-chip">Bilingual Engine</span>
+                  <span class="skill-frosted-chip">Privacy Safeguards</span>
+                </div>
               </div>
             </div>
 
-            <div class="competency-item">
-              <div class="competency-icon" aria-hidden="true">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path>
-                  <circle cx="12" cy="12" r="3"></circle>
-                </svg>
+            <!-- Milestone 4: Wireless Webcam Pro -->
+            <div class="stream-node">
+              <div class="node-indicator">
+                <span class="node-dot"></span>
               </div>
-              <div>
-                <h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: 0.25rem;">Workflow Automation & Tooling</h4>
-                <p style="font-size: var(--fs-xs); color: var(--text-secondary); line-height: 1.5;">
-                  Automating repetitive business processes and data pipelines using n8n and Git-based version control workflows.
+              <div class="node-content">
+                <div class="node-heading-row">
+                  <h4 class="node-title">Wireless Webcam Pro (Sub-50ms 1080p 60FPS)</h4>
+                  <span class="node-badge" style="background: rgba(41,151,255,0.12); color: #2997ff; border: 1px solid rgba(41,151,255,0.25); padding: 2px 8px; border-radius: 6px;">2025–2026 • Systems Video</span>
+                </div>
+                <div class="node-subtitle">Open-Source Low-Latency Video Pipeline</div>
+                <p class="node-body">
+                  Engineered an ultra-low-latency video streaming system turning Android phones into 1080p 60FPS cameras for OBS Studio &amp; Zoom over local Wi-Fi. Implemented Android hardware H.264 encoding via MediaCodec Surface and zero-latency Python PyAV decoding.
                 </p>
+                <div class="chips-flex" style="margin-top: 0.75rem;">
+                  <span class="skill-frosted-chip">Python</span>
+                  <span class="skill-frosted-chip">Android MediaCodec</span>
+                  <span class="skill-frosted-chip">PyAV</span>
+                  <span class="skill-frosted-chip">Socket I/O</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Milestone 5: Academic Degree -->
+            <div class="stream-node">
+              <div class="node-indicator">
+                <span class="node-dot"></span>
+              </div>
+              <div class="node-content">
+                <div class="node-heading-row">
+                  <h4 class="node-title">Bachelor of Information Technology (BIT) Degree</h4>
+                  <span class="node-badge" style="background: rgba(255,255,255,0.08); color: var(--text-secondary); border: 1px solid var(--border-hairline); padding: 2px 8px; border-radius: 6px;">Tribhuvan University</span>
+                </div>
+                <div class="node-subtitle">Central Campus of Technology (CCT), Dharan, Nepal</div>
+                <p class="node-body">
+                  Graduated in BIT Computer Science. Completed four years of rigorous curriculum in Operating Systems, Distributed Systems, Computer Networks, Database Management Systems, Compiler Design, and Advanced Data Structures.
+                </p>
+                <div class="chips-flex" style="margin-top: 0.75rem;">
+                  <span class="skill-frosted-chip">BIT Computer Science</span>
+                  <span class="skill-frosted-chip">CCT Dharan</span>
+                  <span class="skill-frosted-chip">Tribhuvan University</span>
+                </div>
               </div>
             </div>
 
           </div>
         </section>
 
-        <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-          <a href="mailto:ushantgiri3@gmail.com" class="btn-primary">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-              <polyline points="7 10 12 15 17 10"></polyline>
-              <line x1="12" y1="15" x2="12" y2="3"></line>
-            </svg>
-            <span>Request Full Resume</span>
-          </a>
-        </div>
+        <!-- Developer Console Banner Callout -->
+        <section class="section-group discovery-cta-card" style="margin-top: 2rem;">
+          <div class="cta-text-group">
+            <h4 class="cta-title">Developer Studio &amp; Algorithm Sandbox</h4>
+            <p class="cta-subtext">Want to test the interactive CLI terminal and binary search memory tape simulation? Open the developer console anytime or press ⌘K.</p>
+          </div>
+          <button class="btn-apple-primary cta-btn" data-open-terminal>
+            <span>Launch Developer Terminal</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+          </button>
+        </section>
 
       </article>
 
 
       <!-- ================================================================
-           TAB 3: PORTFOLIO
+           TAB 5: CONTACT & COLLABORATE
            ================================================================ -->
-      <article class="content-article" data-page="portfolio" role="tabpanel">
+      <article class="tab-panel" data-page="contact" role="tabpanel">
 
-        <header class="article-header">
-          <h2 class="article-title">Portfolio</h2>
-          <p class="article-subtitle">Curated projects, open-source code, and technical experiments</p>
+        <header class="panel-header">
+          <div class="header-pre-badge">Communication</div>
+          <h2 class="panel-title">Let's Connect &amp; Collaborate</h2>
+          <p class="panel-subtitle">Available for full-time software engineering roles and systems engineering projects.</p>
         </header>
 
-        <div class="portfolio-controls">
-          <div class="filter-bar" role="tablist" aria-label="Project Categories">
-            <button class="filter-btn active" data-filter-btn="all">All Projects</button>
-            <button class="filter-btn" data-filter-btn="web">Web Design &amp; Dev</button>
-            <button class="filter-btn" data-filter-btn="dsa">Systems &amp; DSA</button>
-          </div>
-        </div>
+        <div class="contact-split-grid">
 
-        <div class="project-grid">
+          <!-- Left: Direct Channels & Map -->
+          <div>
+            <h3 class="flow-heading" style="margin-bottom: 1.25rem;">Direct Reach</h3>
 
-          <!-- Project 1 -->
-          <div class="project-card" data-filter-item data-category="web">
-            <div class="project-media">
-              <img src="assets/image/project web.png" alt="Personal Website Template" class="project-img" loading="lazy">
-              <span class="project-badge">Web Design</span>
-            </div>
-            <div class="project-body">
-              <h3 class="project-title">Personal Portfolio Website</h3>
-              <p class="project-desc">
-                A clean, editorial personal website template created for developers. Featuring semantic HTML5, modern CSS styling, mobile drawer navigation, and smooth UI transitions.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">HTML5</span>
-                <span class="project-tag">CSS3</span>
-                <span class="project-tag">JavaScript</span>
-                <span class="project-tag">Responsive UI</span>
+            <div class="contact-card-channel" data-copy-target="ushantgiri3@gmail.com" title="Click to copy email">
+              <div>
+                <span class="row-label">Direct Email</span>
+                <div class="channel-val">ushantgiri3@gmail.com</div>
               </div>
-              <div class="project-actions">
-                <a href="https://github.com/code-with-ushant/webproject" target="_blank" rel="noopener noreferrer" class="btn-secondary">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
-                  </svg>
-                  <span>GitHub Repository</span>
-                </a>
-              </div>
+              <span class="row-action-pill">Copy</span>
             </div>
-          </div>
 
-          <!-- Project 2 -->
-          <div class="project-card" data-filter-item data-category="dsa">
-            <div class="project-media">
-              <img src="assets/image/Screenshot 2026-01-03 222805.png" alt="Student Database Management System" class="project-img" loading="lazy">
-              <span class="project-badge">Systems &amp; DSA</span>
+            <div class="contact-card-channel" data-copy-target="+9779805315275" title="Click to copy phone">
+              <div>
+                <span class="row-label">Phone &amp; WhatsApp</span>
+                <div class="channel-val">+977 9805315275</div>
+              </div>
+              <span class="row-action-pill">Copy</span>
             </div>
-            <div class="project-body">
-              <h3 class="project-title">Student Data Management System</h3>
-              <p class="project-desc">
-                An academic database management utility written in C. Handles structured file storage, record indexing, multi-field search queries, student data updates, and delete operations.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">C Language</span>
-                <span class="project-tag">Data Structures</span>
-                <span class="project-tag">File Persistence</span>
-                <span class="project-tag">Algorithms</span>
+
+            <div class="contact-card-channel" style="cursor: default;">
+              <div>
+                <span class="row-label">Base Location</span>
+                <div class="channel-val">Sunsari / Dharan, Nepal (GMT +5:45)</div>
               </div>
-              <div class="project-actions">
-                <a href="https://github.com/code-with-ushant/learning-c/blob/main/otherproject/student_database.c" target="_blank" rel="noopener noreferrer" class="btn-secondary">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
-                  </svg>
-                  <span>Source Code</span>
-                </a>
-              </div>
+              <span class="row-badge-subtle">CCT Campus</span>
+            </div>
+
+            <!-- Map View -->
+            <div class="map-embed-frame">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113992.83984920678!2d87.21447047716914!3d26.81283737222533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef419d8544a037%3A0x63a3d5b0d4db0e62!2sDharan%2C%20Nepal!5e0!3m2!1sen!2snp!4v1700000000000!5m2!1sen!2snp"
+                width="100%"
+                height="220"
+                style="border:0; border-radius: var(--radius-md);"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Dharan, Nepal Location">
+              </iframe>
             </div>
           </div>
 
-        </div>
+          <!-- Right: Interactive Message Form -->
+          <div>
+            <h3 class="flow-heading" style="margin-bottom: 1.25rem;">Send a Direct Message</h3>
 
-      </article>
-
-
-      <!-- ================================================================
-           TAB 4: CONTACT
-           ================================================================ -->
-      <article class="content-article" data-page="contact" role="tabpanel">
-
-        <header class="article-header">
-          <h2 class="article-title">Contact</h2>
-          <p class="article-subtitle">Let's connect, collaborate, or discuss new software opportunities</p>
-        </header>
-
-        <div class="contact-container">
-
-          <!-- Embedded Map of Sunsari / Itahari -->
-          <div class="map-wrapper">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35608.32396473386!2d87.25093971620541!3d26.668054420772564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef6f43c86dc1e3%3A0x128792161f8346f3!2sItahari!5e0!3m2!1sen!2snp!4v1735630507685!5m2!1sen!2snp"
-              class="map-frame" 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade" 
-              title="Map location of Itahari, Sunsari, Nepal">
-            </iframe>
-          </div>
-
-          <!-- Contact Form with FormSubmit -->
-          <div class="form-wrapper">
-            <h3 class="section-title">Send a Message</h3>
-
-            <form action="https://formsubmit.co/webushant@gmail.com" method="POST" class="contact-form" data-form>
+            <form action="https://formsubmit.co/ushantgiri3@gmail.com" method="POST" class="apple-contact-form" data-form>
               <input type="hidden" name="_captcha" value="false">
-              <input type="hidden" name="_subject" value="New Message via Ushant Giri Portfolio">
+              <input type="hidden" name="_subject" value="New Inquiry via Ushant Giri Portfolio">
+              <input type="hidden" name="_template" value="table">
 
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="fullname" class="form-label">Full Name</label>
-                  <input type="text" id="fullname" name="fullname" class="form-input" placeholder="e.g. John Doe" required data-form-input>
-                </div>
-
-                <div class="form-group">
-                  <label for="email" class="form-label">Email Address</label>
-                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. john@example.com" required data-form-input>
-                </div>
+              <div class="form-input-group">
+                <label for="fullname" class="form-label">Full Name</label>
+                <input type="text" id="fullname" name="fullname" class="form-text-field" placeholder="e.g. Satya Nadella" required data-form-input>
               </div>
 
-              <div class="form-group">
+              <div class="form-input-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" name="email" class="form-text-field" placeholder="e.g. satya@microsoft.com" required data-form-input>
+              </div>
+
+              <div class="form-input-group">
                 <label for="message" class="form-label">Message</label>
-                <textarea id="message" name="message" class="form-input" placeholder="How can I help you or what would you like to collaborate on?" required data-form-input></textarea>
+                <textarea id="message" name="message" class="form-text-field" rows="4" placeholder="What are you building or looking to collaborate on?" required data-form-input></textarea>
               </div>
 
-              <div class="form-feedback" data-form-feedback aria-live="polite"></div>
+              <div class="form-feedback-box" data-form-feedback style="display: none;"></div>
 
-              <button class="btn-primary" type="submit" disabled data-form-btn>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <button class="btn-apple-primary" type="submit" disabled data-form-btn style="align-self: flex-start; margin-top: 0.5rem;">
+                <span>Send Message</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="22" y1="2" x2="11" y2="13"></line>
                   <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
                 </svg>
-                <span>Send Message</span>
               </button>
             </form>
           </div>
@@ -648,22 +998,45 @@
 
       </article>
 
-      <!-- Minimal Editorial Site Footer -->
-      <footer class="site-footer">
-        <p>© 2026 Ushant Giri. Crafted with Apple design principles &amp; modern web standards.</p>
-      </footer>
-
     </main>
 
   </div>
 
+
   <!-- ====================================================================
-       APPLE FLUID MODAL SHEET (visionOS / iOS Sheet)
+       APPLE SPOTLIGHT COMMAND PALETTE (Cmd + K)
+       ==================================================================== -->
+  <div class="spotlight-backdrop" data-spotlight-backdrop aria-hidden="true">
+    <div class="spotlight-dialog" role="dialog" aria-modal="true" aria-label="Command Palette">
+      <div class="spotlight-search-header">
+        <svg class="spotlight-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" class="spotlight-input" data-spotlight-input placeholder="Search projects, skills, commands, or tabs (e.g. webcam, bus, resume, dsa)..." autocomplete="off" spellcheck="false">
+      </div>
+
+      <div class="spotlight-results-wrapper" data-spotlight-results></div>
+
+      <div class="spotlight-footer">
+        <div class="spotlight-hints">
+          <span><kbd class="kbd-badge">↑</kbd> <kbd class="kbd-badge">↓</kbd> Navigate</span>
+          <span><kbd class="kbd-badge">↵</kbd> Select</span>
+          <span><kbd class="kbd-badge">esc</kbd> Dismiss</span>
+        </div>
+        <span>Spotlight Engine</span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ====================================================================
+       APPLE FLUID MODAL SHEET (Project Deep-Dive)
        ==================================================================== -->
   <div class="sheet-backdrop" data-sheet-backdrop aria-hidden="true">
-    <div class="sheet-modal spotlight-card" role="dialog" aria-modal="true" aria-labelledby="sheetModalTitle">
+    <div class="sheet-modal" role="dialog" aria-modal="true" aria-labelledby="sheetModalTitle">
       <button class="sheet-close-btn" data-sheet-close aria-label="Close dialog">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <line x1="18" y1="6" x2="6" y2="18"></line>
           <line x1="6" y1="6" x2="18" y2="18"></line>
         </svg>
@@ -674,14 +1047,14 @@
       </div>
 
       <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
-        <span class="status-pill" data-sheet-badge style="margin-top: 0;"></span>
+        <span class="availability-pill" data-sheet-badge></span>
       </div>
 
-      <h3 id="sheetModalTitle" class="article-title" data-sheet-title style="margin-bottom: 0.75rem;"></h3>
-      <p class="body-text" data-sheet-desc style="margin-bottom: 1.5rem;"></p>
+      <h3 id="sheetModalTitle" class="panel-title" data-sheet-title style="font-size: var(--fs-xl); margin-bottom: 0.75rem;"></h3>
+      <p class="editorial-body" data-sheet-desc style="margin-bottom: 1.75rem;"></p>
 
       <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-primary" data-sheet-link>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-apple-primary" data-sheet-link>
           <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
             <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
           </svg>
@@ -690,6 +1063,153 @@
       </div>
     </div>
   </div>
+
+
+  <!-- ====================================================================
+       APPLE STUDIO DEVELOPER TERMINAL MODAL (Interactive CLI)
+       ==================================================================== -->
+  <div class="terminal-backdrop" data-terminal-backdrop aria-hidden="true">
+    <div class="terminal-modal" role="dialog" aria-modal="true" aria-label="Developer Studio Console">
+      <div class="terminal-modal-topbar">
+        <div class="traffic-dots">
+          <span class="traffic-dot red" data-terminal-close title="Close Terminal"></span>
+          <span class="traffic-dot yellow"></span>
+          <span class="traffic-dot green"></span>
+        </div>
+        <span class="terminal-titlebar-text">ushant@cct-dharan: ~/engineering-lab</span>
+        <button class="sheet-close-btn" data-terminal-close aria-label="Close dialog" style="position: static; width: 28px; height: 28px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="terminal-canvas" data-terminal-body style="max-height: 400px; overflow-y: auto;">
+        <div class="terminal-row" style="color: rgba(255, 255, 255, 0.5);">
+          Ushant Giri Developer Console [Version 2.5.0-arm64]<br>
+          Type <span class="terminal-accent-val">help</span> or click command chips below to execute simulations.
+        </div>
+        <div data-terminal-output></div>
+
+        <div class="terminal-input-flex">
+          <span class="terminal-user-prompt">ushant@dharan:~$</span>
+          <input type="text" class="terminal-field" data-terminal-input placeholder="type command (e.g. skills, kolve, student_db)..." autocomplete="off" spellcheck="false">
+        </div>
+
+        <div class="terminal-action-pills">
+          <span class="cli-pill" data-run-cmd="help">help</span>
+          <span class="cli-pill" data-run-cmd="skills">skills</span>
+          <span class="cli-pill" data-run-cmd="kolve">kolve</span>
+          <span class="cli-pill" data-run-cmd="lordshome">lordshome</span>
+          <span class="cli-pill" data-run-cmd="student_db">student_db</span>
+          <span class="cli-pill" data-run-cmd="library_db">library_db</span>
+          <span class="cli-pill" data-run-cmd="theme">theme</span>
+          <span class="cli-pill" data-run-cmd="clear">clear</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ====================================================================
+       WHATSAPP DIRECT CONTACT & OFFLINE CLIENT CONCIERGE BOT
+       ==================================================================== -->
+  <div class="wa-concierge-container" aria-label="WhatsApp Assistant">
+    <!-- Floating Circular WhatsApp Trigger Button -->
+    <button class="wa-trigger-btn" data-wa-trigger aria-label="Open Direct WhatsApp Assistant" aria-expanded="false">
+      <span class="wa-trigger-glow" aria-hidden="true"></span>
+      <span class="wa-status-beacon" aria-hidden="true">
+        <span class="beacon-pulse"></span>
+        <span class="beacon-dot"></span>
+      </span>
+      <svg class="wa-icon-svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.59c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.13.16 1.73 2.64 4.2 3.7.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31Z"></path>
+      </svg>
+      <span class="wa-badge-pill" data-wa-badge>1</span>
+    </button>
+
+    <!-- Offline Interactive Auto-Responder Chat Window -->
+    <div class="wa-chat-sheet" data-wa-sheet aria-hidden="true">
+      <!-- Chat Header -->
+      <div class="wa-sheet-header">
+        <div class="wa-user-avatar-wrap">
+          <img src="assets/image/mypp.png" alt="Ushant Giri" class="wa-user-avatar">
+          <span class="wa-avatar-status" title="Away in Deep Work"></span>
+        </div>
+        <div class="wa-header-meta">
+          <div class="wa-header-title-row">
+            <h4 class="wa-user-name">Ushant Giri</h4>
+            <span class="wa-verified-check" title="Verified Founder & Developer">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="#30d158"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+            </span>
+          </div>
+          <p class="wa-status-text">Away in deep work • Offline Concierge</p>
+        </div>
+        <div class="wa-header-actions">
+          <a href="https://wa.me/9779805315275" target="_blank" rel="noopener noreferrer" class="wa-action-icon-btn" title="Open directly in WhatsApp" aria-label="Open in WhatsApp">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.59c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.13.16 1.73 2.64 4.2 3.7.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31Z"></path>
+            </svg>
+          </a>
+          <button class="wa-close-btn" data-wa-close aria-label="Close Assistant">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Scrollable Message Stream -->
+      <div class="wa-sheet-body" data-wa-body>
+        <div class="wa-timestamp-divider">
+          <span>Today • Offline Automated Concierge</span>
+        </div>
+
+        <div class="wa-msg-bubble incoming">
+          <p class="wa-msg-text">Hello! Thanks for visiting my engineering portfolio. I am currently offline or in deep focus coding.</p>
+          <span class="wa-msg-meta">Auto • Just now</span>
+        </div>
+
+        <div class="wa-msg-bubble incoming">
+          <p class="wa-msg-text">I've set up this quick responder so you can get immediate details or reach my phone on WhatsApp directly. How can I help you?</p>
+          <span class="wa-msg-meta">Auto • Just now</span>
+        </div>
+
+        <!-- Quick Response Action Chips -->
+        <div class="wa-quick-chips" data-wa-chips>
+          <button class="wa-chip-btn" data-wa-topic="project">
+            <span>💼 Discuss a Project / Hire</span>
+          </button>
+          <button class="wa-chip-btn" data-wa-topic="kolve">
+            <span>🚀 About KOLVE (Co-Founder)</span>
+          </button>
+          <button class="wa-chip-btn" data-wa-topic="stack">
+            <span>🛠️ Tech Stack &amp; Skills</span>
+          </button>
+          <button class="wa-chip-btn" data-wa-topic="hours">
+            <span>🕒 Availability &amp; Location</span>
+          </button>
+          <a href="https://wa.me/9779805315275?text=Hi%20Ushant,%20I'm%20reaching%20out%20from%20your%20portfolio..." target="_blank" rel="noopener noreferrer" class="wa-chip-btn wa-chip-accent">
+            <span>⚡ Instant WhatsApp Chat ↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Message Composer -->
+      <form class="wa-sheet-footer" data-wa-form>
+        <input type="text" class="wa-composer-input" data-wa-input placeholder="Type an inquiry or note..." autocomplete="off">
+        <button type="submit" class="wa-send-btn" data-wa-send aria-label="Send message">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
 
   <!-- Custom JavaScript Core -->
   <script src="assets/js/rep.js"></script>

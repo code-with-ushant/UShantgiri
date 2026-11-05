@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="50%" stop-color="#101522"/>
+      <stop offset="100%" stop-color="#08090d"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2997ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#30d158" stop-opacity="0.8"/>
+    </linearGradient>
+    <radialGradient id="lensGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2997ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#2997ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="270" x2="800" y2="270"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="160" y1="0" x2="160" y2="450"/>
+    <line x1="320" y1="0" x2="320" y2="450"/>
+    <line x1="480" y1="0" x2="480" y2="450"/>
+    <line x1="640" y1="0" x2="640" y2="450"/>
+  </g>
+
+  <!-- Lens Ambient Radial Glow -->
+  <circle cx="400" cy="180" r="160" fill="url(#lensGlow)"/>
+
+  <!-- Concentric Camera Aperture Rings -->
+  <circle cx="400" cy="180" r="110" fill="none" stroke="rgba(41,151,255,0.15)" stroke-width="2"/>
+  <circle cx="400" cy="180" r="90" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <circle cx="400" cy="180" r="70" fill="#131722" stroke="rgba(41,151,255,0.4)" stroke-width="2"/>
+  <circle cx="400" cy="180" r="45" fill="#0b0e17" stroke="url(#glow)" stroke-width="3"/>
+  <circle cx="400" cy="180" r="24" fill="#1a2236"/>
+  <circle cx="410" cy="170" r="8" fill="#ffffff" opacity="0.6"/>
+
+  <!-- Wi-Fi Pulse Signals -->
+  <path d="M 330 110 A 100 100 0 0 1 470 110" fill="none" stroke="#2997ff" stroke-width="3.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 350 130 A 70 70 0 0 1 450 130" fill="none" stroke="#30d158" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Latency Badge -->
+  <g transform="translate(400, 310)">
+    <rect x="-110" y="-16" width="220" height="32" rx="16" fill="rgba(48,209,88,0.12)" stroke="rgba(48,209,88,0.3)" stroke-width="1"/>
+    <circle cx="-85" cy="0" r="4" fill="#30d158"/>
+    <text x="-70" y="5" font-family="-apple-system, SF Pro, sans-serif" font-size="12" font-weight="600" fill="#30d158" letter-spacing="1">SUB-50ms  •  1080p 60FPS</text>
+  </g>
+
+  <!-- Typography -->
+  <text x="400" y="375" text-anchor="middle" font-family="-apple-system, SF Pro Display, Inter, sans-serif" font-size="24" font-weight="700" fill="#f5f5f7" letter-spacing="-0.5">Wireless Webcam Pro</text>
+  <text x="400" y="405" text-anchor="middle" font-family="-apple-system, SF Pro Text, sans-serif" font-size="13" font-weight="400" fill="#86868b">Hardware-Accelerated H.264 Video Streaming Pipeline</text>
+</svg>

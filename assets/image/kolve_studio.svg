@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="kolveBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07120e"/>
+      <stop offset="50%" stop-color="#0c1d18"/>
+      <stop offset="100%" stop-color="#050a08"/>
+    </linearGradient>
+    <linearGradient id="kolveGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30d158"/>
+      <stop offset="100%" stop-color="#00C4CC"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#30d158" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#30d158" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#kolveBg)"/>
+
+  <!-- Subtle Studio Grid -->
+  <g stroke="rgba(48,209,88,0.05)" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="270" x2="800" y2="270"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="160" y1="0" x2="160" y2="450"/>
+    <line x1="320" y1="0" x2="320" y2="450"/>
+    <line x1="480" y1="0" x2="480" y2="450"/>
+    <line x1="640" y1="0" x2="640" y2="450"/>
+  </g>
+
+  <!-- Radial Halo -->
+  <circle cx="400" cy="170" r="180" fill="url(#centerGlow)"/>
+
+  <!-- Geometric Monogram Emblem -->
+  <g transform="translate(400, 160)">
+    <!-- Outer Octagon / Studio Aperture -->
+    <polygon points="0,-75 53,-53 75,0 53,53 0,75 -53,53 -75,0 -53,-53" fill="none" stroke="rgba(48,209,88,0.2)" stroke-width="2"/>
+    <polygon points="0,-60 42,-42 60,0 42,42 0,60 -42,42 -60,0 -42,-42" fill="#0d241d" stroke="url(#kolveGlow)" stroke-width="2.5"/>
+    
+    <!-- Stylized 'K' Lettermark -->
+    <path d="M -18 -32 L -18 32 M -18 0 L 18 -32 M -4 -4 L 20 32" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Orbiting Accent Nodes -->
+    <circle cx="0" cy="-60" r="4" fill="#30d158"/>
+    <circle cx="60" cy="0" r="4" fill="#00C4CC"/>
+    <circle cx="0" cy="60" r="4" fill="#30d158"/>
+    <circle cx="-60" cy="0" r="4" fill="#00C4CC"/>
+  </g>
+
+  <!-- Studio Title -->
+  <text x="400" y="278" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="28" font-weight="700" fill="#ffffff" letter-spacing="4">KOLVE</text>
+  <text x="400" y="306" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13" font-weight="500" fill="rgba(255,255,255,0.7)" letter-spacing="1.5">DIGITAL SERVICE &amp; SOLUTIONS STUDIO</text>
+
+  <!-- Pill Badge: Co-Founder & Tech Stack -->
+  <g transform="translate(400, 362)">
+    <rect x="-180" y="-17" width="360" height="34" rx="17" fill="rgba(48,209,88,0.12)" stroke="rgba(48,209,88,0.35)" stroke-width="1"/>
+    <circle cx="-156" cy="0" r="4.5" fill="#30d158"/>
+    <text x="-144" y="5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12" font-weight="600" fill="#30d158">CO-FOUNDER (TEAM OF 4)</text>
+    <text x="14" y="5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12" font-weight="400" fill="rgba(255,255,255,0.7)">• NEXT.JS 16 &amp; TYPESCRIPT</text>
+  </g>
+</svg>
