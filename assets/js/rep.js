@@ -904,7 +904,7 @@
       prefill: "Hi Ushant, I'm interested in KOLVE services and collaboration."
     },
     stack: {
-      text: "Core engineering competencies:\n• Cloud Backends: FastAPI, Supabase, Firebase, Node.js, WebSockets\n• Systems & Algorithms: Python, C/C++ (DSA, pointer memory, binary I/O)\n• Frontend & Architecture: Next.js 16, TypeScript, Tailwind CSS, Apple Studio UI",
+      text: "Core engineering competencies include FastAPI, Supabase, Firebase, Node.js, and WebSockets on the backend; Python, C, and C++ for algorithms and data structures; and Next.js, TypeScript, and modern CSS on the frontend.",
       ctaText: "Discuss Tech Specs on WhatsApp",
       prefill: "Hi Ushant, reaching out regarding your technical stack and capabilities."
     },

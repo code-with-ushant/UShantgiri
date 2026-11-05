@@ -198,17 +198,7 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35), 0 0 0 1px var(--border-hairline);
 }
 
-.avatar-status-badge {
-  position: absolute;
-  bottom: -3px;
-  right: -3px;
-  width: 18px;
-  height: 18px;
-  background: var(--accent-live);
-  border: 3px solid var(--bg-canvas);
-  border-radius: 50%;
-  box-shadow: 0 0 12px var(--accent-live-glow);
-}
+.avatar-status-badge { display: none !important; }
 
 .identity-name {
   font-size: var(--fs-lg);
@@ -229,23 +219,16 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  background: rgba(48, 209, 88, 0.1);
-  border: 1px solid rgba(48, 209, 88, 0.25);
-  color: var(--accent-live);
+  background: var(--surface-card);
+  border: 1px solid var(--border-hairline);
+  color: var(--text-secondary);
   font-size: var(--fs-xs);
-  font-weight: 600;
-  padding: 0.3rem 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.65rem;
   border-radius: var(--radius-full);
 }
 
-.live-pulse {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--accent-live);
-  box-shadow: 0 0 8px var(--accent-live);
-  animation: pulseBeacon 2s infinite ease-in-out;
-}
+.live-pulse { display: none !important; }
 
 @keyframes pulseBeacon {
   0%, 100% { opacity: 1; transform: scale(1); }
@@ -952,12 +935,12 @@ body {
 }
 
 .node-dot {
-  width: 14px;
-  height: 14px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
-  background: var(--accent-primary);
-  box-shadow: 0 0 12px var(--accent-glow);
-  margin-top: 4px;
+  background: var(--text-tertiary);
+  margin-top: 6px;
+  box-shadow: none;
 }
 
 .node-content {
@@ -982,7 +965,11 @@ body {
 .node-badge {
   font-size: var(--fs-xs);
   font-family: var(--font-mono);
-  color: var(--accent-primary);
+  font-weight: 500;
+  color: var(--text-tertiary);
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
 .node-subtitle {
@@ -2311,16 +2298,7 @@ body {
   border: 1.5px solid rgba(255, 255, 255, 0.15);
 }
 
-.wa-avatar-status {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #30d158;
-  border: 2px solid var(--surface-overlay);
-}
+.wa-avatar-status { display: none !important; }
 
 .wa-header-meta {
   flex: 1;
