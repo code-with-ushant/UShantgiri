@@ -1,0 +1,9 @@
+# robots.txt for https://ushantgiri.com.np
+User-agent: *
+Allow: /
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/image/
+
+# Sitemap index
+Sitemap: https://ushantgiri.com.np/sitemap.xml

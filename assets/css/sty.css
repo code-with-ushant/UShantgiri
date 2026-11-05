@@ -482,6 +482,10 @@ body {
 }
 
 .nav-tab {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 1;
   background: transparent;

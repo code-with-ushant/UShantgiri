@@ -3,12 +3,20 @@
 [![Vanilla JS](https://img.shields.io/badge/Architecture-Vanilla%20ES6+-F7DF1E?logo=javascript&logoColor=black)](assets/js/rep.js)
 [![CSS3 Design](https://img.shields.io/badge/Design_System-Apple_WWDC_Glass-0071e3)](assets/css/sty.css)
 [![Responsive](https://img.shields.io/badge/Responsive-Mobile_360px%20to%204K-30d158)]()
-[![Security Hardened](https://img.shields.io/badge/Security-Sanitized_DOM_XSS_Free-brightgreen)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Schema.org](https://img.shields.io/badge/Structured_Data-Schema.org_JSON--LD-purple)](https://schema.org)
+[![SEO Optimized](https://img.shields.io/badge/SEO-Ranked_for_Itahari_Nepal-blue)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
-An Apple-inspired personal engineering portfolio and systems sandbox designed by **Ushant Giri**, a software developer, founder, and systems builder based in Sunsari, Nepal.
+An Apple-inspired personal engineering portfolio and systems sandbox designed by **Ushant Giri**, a software developer, programmer, and founder based in **Itahari, Sunsari District, Koshi Province, Nepal**.
 
 The platform showcases production systems, startup ventures, live transit telemetry, low-level computational foundations in C/C++, and full-stack cloud architecture (FastAPI, Supabase, Firebase, Node.js).
+
+---
+
+## 🌐 Live Production URL
+
+- **Official Website**: [https://ushantgiri.com.np](https://ushantgiri.com.np)
+- **GitHub Pages Fallback**: [https://code-with-ushant.github.io/UShantgiri/](https://code-with-ushant.github.io/UShantgiri/)
 
 ---
 
@@ -45,12 +53,13 @@ The platform showcases production systems, startup ventures, live transit teleme
 
 ---
 
-## 🛡️ Security Hardening & Code Quality
+## 🔍 Technical SEO & Personal Brand Optimization
 
-- **DOM XSS Sanitization**: User commands and inputs executed inside the CLI terminal and chat concierge are scrubbed using strict HTML entity encoding (`escapeHtml()`) before DOM insertion.
-- **Isolated External Navigation**: All outbound links enforce `rel="noopener noreferrer"` and `target="_blank"` to mitigate reverse tabnabbing and window opener attacks.
-- **Zero External Secrets Exposure**: All contact bots and routing logic execute on deterministic client-side JavaScript—no private API keys or database tokens are baked into the frontend bundle.
-- **Asset Weight Optimization**: Purged unreferenced legacy binaries, reducing repository payload by over 60% with SVG vector illustrations for lightning-fast loads.
+- **Verified Entity Schema (JSON-LD)**: Connected Schema.org `@graph` containing `Person`, `WebSite`, and `ProfilePage` models linking verified social channels (GitHub, LinkedIn, X, Facebook, Instagram) and academic credentials (CCT Dharan, Tribhuvan University).
+- **Local Geo-Targeting (Itahari / Sunsari / Nepal)**: Built-in `geo.region` (NP-P1), `geo.placename`, and GPS coordinates (`26.6644, 87.2718`) targeting local and regional engineering opportunities.
+- **Search Engine Discovery**: Dedicated `robots.txt` and `sitemap.xml` with Google image metadata extensions.
+- **Open Graph & Twitter Cards**: Full 1200×630 high-resolution previews for link sharing across WhatsApp, LinkedIn, X/Twitter, and Facebook.
+- **Crawlable Navigation**: Standard semantic `<a>` anchors allowing search engine spiders to traverse all content sections while preserving fluid tab physics.
 
 ---
 
@@ -58,14 +67,17 @@ The platform showcases production systems, startup ventures, live transit teleme
 
 ```text
 UShantgiri/
-├── index.html                  # Semantic single-page application entry point
+├── index.html                  # Semantic single-page application & Schema.org JSON-LD
+├── robots.txt                  # Search engine crawler directives & sitemap reference
+├── sitemap.xml                 # XML sitemap with image metadata for Google & Bing
+├── CNAME                       # Custom domain mapping (ushantgiri.com.np)
 ├── assets/
 │   ├── css/
 │   │   └── sty.css             # Apple-inspired design tokens, glassmorphism & responsive layouts
 │   ├── js/
 │   │   └── rep.js              # State router, Spotlight palette, Terminal CLI, WA Bot & form engine
 │   └── image/
-│       ├── mypp.png            # Profile portrait
+│       ├── mypp.png            # Optimized profile portrait
 │       ├── kolve_studio.svg    # KOLVE Studio vector illustration
 │       ├── lordshome_platform.svg # Lord's Home platform vector illustration
 │       ├── wireless_webcam.svg # Wireless Webcam architecture vector illustration
@@ -74,7 +86,7 @@ UShantgiri/
 │       ├── Screenshot...png    # C Student Database terminal preview
 │       ├── project web.png     # Portfolio design preview
 │       └── webpage.png         # Full-page documentation preview
-├── audit_and_execution_plan.md # Architectural engineering audit and roadmap
+├── LICENSE                     # MIT License
 └── README.md                   # Repository documentation
 ```
 
@@ -113,10 +125,7 @@ This repository is optimized for deployment via **GitHub Pages**:
 2. In the GitHub repository settings, navigate to **Pages**.
 3. Under **Build and deployment > Source**, select **Deploy from a branch**.
 4. Choose the `main` branch and `/ (root)` folder, then click **Save**.
-5. Your portfolio will be live at:
-   ```
-   https://code-with-ushant.github.io/UShantgiri/
-   ```
+5. Your custom domain `ushantgiri.com.np` will be served with automatic HTTPS certificates.
 
 ---
 
@@ -126,7 +135,7 @@ This repository is optimized for deployment via **GitHub Pages**:
 - **WhatsApp**: [+977 9805315275](https://wa.me/9779805315275)
 - **Email**: [ushantgiri3@gmail.com](mailto:ushantgiri3@gmail.com)
 - **GitHub**: [@code-with-ushant](https://github.com/code-with-ushant)
-- **Location**: Sunsari / Dharan, Nepal (GMT +5:45)
+- **Location**: Itahari, Sunsari, Koshi Province, Nepal (GMT +5:45)
 
 ---
 

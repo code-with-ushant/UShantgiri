@@ -585,7 +585,7 @@
       'Direct Channels for Ushant Giri:',
       '  Email : ushantgiri3@gmail.com',
       '  Phone : +977 9805315275',
-      '  Base  : Sunsari / Dharan, Nepal'
+      '  Base  : Itahari, Sunsari, Koshi Province, Nepal'
     ],
     clear: () => []
   };
@@ -909,7 +909,7 @@
       prefill: "Hi Ushant, reaching out regarding your technical stack and capabilities."
     },
     hours: {
-      text: "Based in Sunsari/Dharan, Nepal (GMT +5:45). When offline or coding, Ushant checks incoming WhatsApp pings within 1–2 hours during business hours.",
+      text: "Based in Itahari, Sunsari (Koshi Province), Nepal (GMT +5:45). When offline or coding, Ushant checks incoming WhatsApp pings within 1–2 hours during business hours.",
       ctaText: "Send Direct WhatsApp Message",
       prefill: "Hi Ushant, sending you a quick message from your portfolio."
     }
